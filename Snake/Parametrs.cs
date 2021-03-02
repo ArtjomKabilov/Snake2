@@ -1,7 +1,7 @@
 ﻿//using System;
 //using System.Collections.Generic;
 //using System.Text;
-
+//using WMPLib;
 //namespace Snake
 //{
 //    class Parametrs
@@ -12,11 +12,11 @@
 //        public Parametrs()
 //        {
 //            var ind = Directory.GetCurrentDirectory().ToString()
-//                .IndexOf("bin", StringComparison.Ordinal); 
+//                .IndexOf("bin", StringComparison.Ordinal);
 
 //            string binFolder =
 //                Directory.GetCurrentDirectory().ToString().Substring(0, ind)
-//                    .ToString(); 
+//                    .ToString();
 
 //            resourcesFolder = binFolder + "Resources\\";
 //        }

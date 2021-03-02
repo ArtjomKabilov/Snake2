@@ -30,7 +30,7 @@ namespace Snake
 			x = p.x;
 			y = p.y;
 			sym = p.sym;
-			col = p.col;
+			this.col = col;
 		}
 
 		public void Move(int offset, Direction direction)
@@ -61,6 +61,7 @@ namespace Snake
 		public void Draw()
 		{
 			Console.SetCursorPosition(x, y);
+			Console.ForegroundColor = col;
 			Console.Write(sym);
 		}
 
